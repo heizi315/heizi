@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<link href="css/style-feedback.css" rel="stylesheet">
+<title>小黑花园</title>
+</head>
+<body>
+<header>
+	<a href=""><img src="images/logo.png"></a>
+	<br />
+	<div>
+		<p>欢迎来到小黑花园</p>
+		<a href=""><span></span></a>
+		<form>
+			<input type="search" name="search">
+			<input type="button">
+		</form>
+		<a href="login.html">登录</a>
+		<a href="register.html">注册</a>
+	</div>
+	<nav>
+		<ul>
+			<li><a href="index.html">首页</a></li>
+			<li><a href="introduction.html">植物介绍</a>
+				<ol>
+					<li><a href="introduction.html">藻类植物</a></li>
+					<li><a href="introduction.html">苔藓植物</a></li>
+					<li><a href="introduction.html">蕨类植物</a></li>
+					<li><a href="introduction.html">种子植物</a></li>
+				</ol>
+			</li>
+			<li><a href="shopping.html">商城</a></li>
+			<li><a href="problem.html">常见问题</a></li>
+			<li><a href="#">客户留言</a></li>
+		</ul>
+	</nav>
+</header>
+<div id="content">
+	<h1>客户留言</h1>
+	<form>
+		<img src="images/feedback.png">
+		<p>留言内容：<img src="images/important.png"></p>
+		<input type="text" name="feedback" id="feedback" required>
+		<span>小于等于400字符</span>
+		<p>&nbsp;&nbsp;&nbsp;&nbsp;留&nbsp;言&nbsp;人&nbsp;：</p>
+		<input type="text" name="name" id="name">
+		<span>小于等于20个字符(包括A-Z、a-z、0-9、汉字、不含特殊字符)</span>
+		<p>您的邮箱：<img src="images/important.png"></p>
+		<input type="email" name="email" id="email" required>
+		<span>示例：example@mail.com</span>
+		<input type="radio" id="reply" name="reply" checked ="checked" />
+		<label for="reply">回复时请邮件通知我</label>
+		<p>&nbsp;&nbsp;&nbsp;&nbsp;您的电话：</p>
+		<input type="tel" name="tel" id="tel">
+		<span>由数字组成11个字符</span>
+		<input type="radio" id="reply1" name="reply1" checked ="checked" />
+		<label for="reply1">回复时请邮件通知我</label>
+		<input type="submit" value= "发表留言"/>
+	</form>
+</div>
+<footer>
+	<p>小黑花园有限公司</p>
+	<p>本网站所有产品设计，功能及展示形式，均已受版权或产权保护。任何公司及个人不得以任何方式复制部分或全部，违者将依法追究责任，特此声明。</p>
+	<p>Copyright &copy; 2019 小黑花园（xhhy.com） All Rights Reserved. 冀B备000001号</p>
+</footer>
+</body>
+</html>
