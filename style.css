@@ -1,0 +1,110 @@
+*{
+	padding:0;
+	margin:0 auto;
+}
+header{
+	background:#2e2e2e;
+}
+nav,#header,footer,#center{
+	width:962px;
+}
+a{
+	text-decoration:none;
+	color:#000;
+}
+header a,ul li a,footer p{
+	color:#fff;
+}
+li{
+	list-style:none;
+}
+ul li,h4{
+	float:left;
+}
+.se{
+	border:none;
+	color:#fff;
+	text-align:center;
+	width:50px;
+	background-image:url(../images/search.jpg);
+	position:relative;
+	top:2px;
+}
+#search{
+	float:right;
+	margin-top:31px;
+	margin-right:2px;
+}
+#header-a{
+	overflow:auto;
+	background-image:url(../images/menu.png);
+	background-size:110% 100%;
+}
+nav ul{
+	margin-left:20px;
+}
+nav ul li{
+	width:128px;
+	text-align:center;
+	line-height:50px;
+	background-image:url(../images/menu.png);
+	background-size:100%;
+}
+#center img[src*="banner"]{
+	border:1px solid #2e2e2e;
+	padding:0 10px;
+	margin-bottom:5px;
+}
+#main-a{
+	border:1px solid #2e2e2e;
+	padding:10px;
+	overflow:auto;
+}
+.main{
+	width:230px;
+	float:left;
+	margin-left:5px;
+}
+.main a{
+	float:right;
+	margin-right:6px;
+}
+.main p,.main-b{
+	clear:both;
+}
+.uu{
+	overflow:auto;
+	border-bottom:1px dashed #2e2e2e;
+}
+.main p{
+	text-indent:2em;
+}
+.main-b{
+	margin-left:5px;
+	padding:10px;
+}
+.main-b li{
+	list-style-image:url(../images/tu_2.jpg);
+}
+span{
+	float:right;
+}
+footer{
+	padding:20px 0 10px 0;
+	background:#000;
+	text-align:center;
+}
+footer ul{
+	width:424px;
+	margin-bottom:10px;
+}
+footer ul li:not(.kk){
+	border-right:1px solid #fff;
+}
+footer ul li a{
+	margin-right:10px;
+	margin-left:10px;
+}
+.main-b a:hover{
+	color:#00f;
+}
