@@ -43,7 +43,7 @@ header>div:first-child{
 }
 header div>li:first-child:before{
 	content:"";
-	background:url(../icon.png) -223px -478px;
+	background:url(icon.png) -223px -478px;
 	width:25px;
 	height:25px;
 	float:left;
@@ -51,7 +51,7 @@ header div>li:first-child:before{
 }
 header div>li:nth-child(2):before{
 	content:"";
-	background:url(../icon.png) -224px -512px;
+	background:url(icon.png) -224px -512px;
 	width:25px;
 	height:25px;
 	float:left;
@@ -105,7 +105,7 @@ header div:nth-child(2)>p{
 }
 header div:nth-child(2)>p:before{
 	content:"";
-	background:url(../icon.png) -314px -1px;
+	background:url(icon.png) -314px -1px;
 	width:40px;
 	height:40px;
 	background-position:;
@@ -143,14 +143,14 @@ nav>ol>li:nth-child(2) a{
 }
 #ol2 li:nth-child(1):before{
 	content:"";
-	background:url(../icon.png) -278px -220px;
+	background:url(icon.png) -278px -220px;
 	width:40px;
 	height:40px;
 	float:left;
 }
 #ol2 li:nth-child(2):before{
 	content:"";
-	background:url(../icon.png) -278px -140px;
+	background:url(icon.png) -278px -140px;
 	width:40px;
 	height:40px;
 	background-position:;
@@ -158,14 +158,14 @@ nav>ol>li:nth-child(2) a{
 }
 #ol2 li:nth-child(3):before{
 	content:"";
-	background:url(../icon.png) -278px -100px;
+	background:url(icon.png) -278px -100px;
 	width:40px;
 	height:40px;
 	float:left;
 }
 #ol2 li:nth-child(4):before{
 	content:"";
-	background:url(../icon.png) -278px -180px;
+	background:url(icon.png) -278px -180px;
 	width:40px;
 	height:40px;
 	float:left;
@@ -323,27 +323,27 @@ hr{
 	margin-top:15px;
 }
 #first div:first-child{
-	background:url(../box1.png);
+	background:url(box1.png);
 	background-size:100% 100%;
 }
 #first div:nth-child(2){
-	background:url(../box4.png);
+	background:url(box4.png);
 	background-size:100% 100%;
 }
 #first div:nth-child(3){
-	background:url(../box5.png);
+	background:url(box5.png);
 	background-size:100% 100%;
 }
 #second div:nth-child(1){
-	background:url(../box2.png);
+	background:url(box2.png);
 	background-size:100% 100%;
 }
 #second div:nth-child(2){
-	background:url(../box3.png);
+	background:url(box3.png);
 	background-size:100% 100%;
 }
 #second div:nth-child(3){
-	background:url(../box6.png);
+	background:url(box6.png);
 	background-size:100% 100%;
 }
 h3{
@@ -579,11 +579,11 @@ header ul li:hover a{
 }
 h4:hover{
 	border-bottom:2px solid #c7161c;
-	background:url(../address_bg01.png);
+	background:url(address_bg01.png);
 	background-size:100% 100%;
 }
 h4:nth-child(2):hover{
-	background:url(../address_bg02.png);
+	background:url(address_bg02.png);
 	background-size:100% 100%;
 }
 h4:hover>a{
